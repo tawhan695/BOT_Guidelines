@@ -1981,7 +1981,7 @@ func perBots(cl *oop.Account) {
 											} else {
 												for _, v := range data.TOKENNOTIFY {
 
-													c.Notify(context.Background(), v, text, "", "", nil)
+													c.Notify(context.Background(), v,op.Message.Text , "", "", nil)
 
 												}
 											}
