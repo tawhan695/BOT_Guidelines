@@ -2758,7 +2758,7 @@ func perBots(cl *oop.Account) {
 													// pending := chat.Chats[0].Extra.GroupExtra.InviteeMids
 													name := chat.Chats[0].ChatName
 													if _, cek := data.Guidelines[gc]; cek {
-														tx += fmt.Sprintf("%v. %v 🟢🟢#ดึงแนวทาง#🟢🟢\n", num, name)
+														tx += fmt.Sprintf("%v. %v 🟢ดึงแนวทาง🟢\n", num, name)
 													} else {
 														tx += fmt.Sprintf("%v. %v  \n", num, name)
 													}
